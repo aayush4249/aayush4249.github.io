@@ -8112,7 +8112,7 @@ body {
   font-size: 16px;
   line-height: 1.8;
   font-weight: 400;
-  color: #999999; }
+  color: #4d4d4d; }
   body.menu-show {
     overflow: hidden;
     position: fixed;
@@ -9019,10 +9019,6 @@ textarea.form-control {
       padding-top: 5em;
       padding-bottom: 5em; } }
 
-.ftco-animate {
-  opacity: 0;
-  visibility: hidden; }
-
 .bg-primary {
   background: #3e64ff !important; }
 
@@ -9613,3 +9609,69 @@ textarea.form-control {
   100% {
     stroke-dasharray: 89, 200;
     stroke-dashoffset: -136px; } }
+
+.hero-wrap .slider-text .hero-tagline {
+  font-size: 18px;
+  font-weight: 400;
+  color: #000000;
+  margin-top: 10px; }
+
+.skill-group {
+  margin-bottom: 30px; }
+  .skill-group h3 {
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 12px; }
+
+.skill-tags {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0; }
+  .skill-tags li {
+    list-style: none;
+    margin: 0 8px 8px 0;
+    padding: 5px 14px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #3e64ff;
+    background: rgba(62, 100, 255, 0.1);
+    -webkit-border-radius: 30px;
+    border-radius: 30px; }
+
+.resume-wrap .project-stack {
+  display: block;
+  font-size: 14px;
+  font-weight: 600;
+  color: rgba(0, 0, 0, 0.6); }
+
+#contact-section a {
+  font-weight: 600; }
+
+.project-figure {
+  margin: 15px 0; }
+  .project-figure img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    -webkit-border-radius: 6px;
+    border-radius: 6px; }
+  .project-figure figcaption {
+    margin-top: 8px;
+    font-size: 13px;
+    color: rgba(0, 0, 0, 0.6); }
+
+.project-links a {
+  display: inline-block;
+  margin-right: 18px;
+  font-weight: 600; }
+
+.resume-points {
+  margin: 0 0 1rem;
+  padding-left: 20px; }
+  .resume-points li {
+    margin-bottom: 8px; }
